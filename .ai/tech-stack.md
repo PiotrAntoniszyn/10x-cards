@@ -1,17 +1,20 @@
+Frontend - Astro z React dla komponentów interaktywnych:
+- Astro 5 pozwala na tworzenie szybkich, wydajnych stron i aplikacji z minimalną ilością JavaScript
+- React 19 zapewni interaktywność tam, gdzie jest potrzebna
+- TypeScript 5 dla statycznego typowania kodu i lepszego wsparcia IDE
+- Tailwind 4 pozwala na wygodne stylowanie aplikacji
+- Shadcn/ui zapewnia bibliotekę dostępnych komponentów React, na których oprzemy UI
 
+Backend - Supabase jako kompleksowe rozwiązanie backendowe:
+- Zapewnia bazę danych PostgreSQL
+- Zapewnia SDK w wielu językach, które posłużą jako Backend-as-a-Service
+- Jest rozwiązaniem open source, które można hostować lokalnie lub na własnym serwerze
+- Posiada wbudowaną autentykację użytkowników
 
-**Frontend:**  
-- **Streamlit 1.40:** Umożliwia szybkie tworzenie interaktywnych interfejsów użytkownika, koncentrując się na prostym prototypowaniu i szybkim wdrożeniu MVP. Dzięki temu możesz szybko zobaczyć efekty pracy bez rozbudowanej konfiguracji frontendu.  
-- **Python 3.9:** Język programowania o czytelnej składni i dużej ilości bibliotek, co sprawia, że integracja logiki aplikacji z interfejsem jest prosta i efektywna.
+AI - Komunikacja z modelami przez usługę Openrouter.ai:
+- Dostęp do szerokiej gamy modeli (OpenAI, Anthropic, Google i wiele innych), które pozwolą nam znaleźć rozwiązanie zapewniające wysoką efektywność i niskie koszta
+- Pozwala na ustawianie limitów finansowych na klucze API
 
-**Backend i baza danych:**  
-- **Supabase:** Działa jako kompleksowe rozwiązanie backendowe, oferując łatwą integrację z bazą danych PostgreSQL oraz gotowe mechanizmy autentykacji użytkowników. Dzięki temu możesz szybko wdrożyć zarówno operacje CRUD, jak i zabezpieczenia dostępu do danych użytkowników.
-
-**AI – Komunikacja z modelami:**  
-- **Openrouter.ai:** Umożliwia komunikację z wieloma modelami AI (takimi jak OpenAI, Anthropic czy Google) w ramach jednej usługi. Pozwala to na korzystanie z najefektywniejszych rozwiązań przy jednoczesnej kontroli kosztów przez ustawianie limitów finansowych kluczy API.
-
-**CI/CD i Hosting:**  
-- **Github Actions:** Automatyzacja pipeline’ów CI/CD pozwala na szybkie testowanie i wdrażanie aplikacji, przyspieszając cały cykl rozwoju oprogramowania.  
-- **DigitalOcean:** Hosting aplikacji w elastycznym środowisku, które można łatwo skalować w miarę wzrostu ruchu i potrzeb projektu.
-
-Tak skonfigurowany stos technologiczny umożliwia błyskawiczne wdrożenie MVP, zapewnia skalowalność w miarę rozwoju aplikacji oraz pomaga kontrolować koszty utrzymania i rozwoju. System jest wystarczający dla wczesnych etapów projektu, a w przyszłości można rozważyć dodatkowe udoskonalenia, gdy potrzeby produkcyjne będą się rozszerzać.
+CI/CD i Hosting:
+- Github Actions do tworzenia pipeline’ów CI/CD
+- DigitalOcean do hostowania aplikacji za pośrednictwem obrazu docker
